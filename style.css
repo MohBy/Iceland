@@ -1,5 +1,9 @@
 body{
     font-family: 'Domine', serif;
+    background-color: #E9E9E9;
+}
+.main-container{
+    background-color: white;
 }
 .fa-bars, .navbar-brand{
     color: black;
@@ -21,9 +25,6 @@ body{
 }
 h3, .fa-bars{
     color: #D8D8D8;
-}
-p{
-    font-size: 2em;
 }
 .fa-bars{
     font-size: 30px;
