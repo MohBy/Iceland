@@ -1,15 +1,36 @@
-.header{
-   
+body{
+    font-family: 'Domine', serif;
 }
 .fa-bars, .navbar-brand{
     color: black;
 }
-.container .header .back, .left-2 .img2, .header-container{
+.container, .header-container, .main-img{
     background-size: cover;
     background-position: center center;
 }
 
 .header-container {
-    height: 600px;
+    height: 800px;
 }
- 
+.text-center{
+    margin-top: 20px;
+}
+.the-title{
+    font-size: 42px;
+    color: black;
+}
+h3, .fa-bars{
+    color: #D8D8D8;
+}
+p{
+    font-size: 2em;
+}
+.fa-bars{
+    font-size: 30px;
+}
+.main-img{
+    background-position: left top;
+    background-size: 100%;
+    padding: 130px;
+
+}
