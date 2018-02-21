@@ -1,10 +1,10 @@
-.header{
-   
+body{
+    font-family: 'Domine', serif;
 }
 .fa-bars, .navbar-brand{
     color: black;
 }
-.container .header .back, .left-2 .img2, .header-container{
+.container, .header-container, .main-img{
     background-size: cover;
     background-position: center center;
 }
@@ -22,8 +22,57 @@
      width: 89%;
  }
 
- cite {
+ .source-author {
      display: flex;
      justify-content: flex-end;
+     margin-top: 50px;
 
  }
+
+.text-center{
+    margin-top: 20px;
+}
+.the-title{
+    font-size: 42px;
+    color: black;
+}
+
+h1.main-container{
+    padding-top: 50px;
+
+}
+h3, .fa-bars, .glaciers{
+    color: #D8D8D8;
+}
+p {
+    content: justify;
+    padding: 50px;
+}
+
+h2.glaciers {
+    padding-top: -15px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+.date {
+    border-bottom: 1px solid black;
+    width: 300px;
+    padding-left: 50px;
+}
+
+.date1{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+.main-img{
+    background-position: left top;
+    background-size: 100%;
+    padding: 130px;
+
+}
