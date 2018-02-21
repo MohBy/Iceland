@@ -11,5 +11,19 @@
 
 .header-container {
     height: 600px;
+
 }
- 
+ .main-container {
+     z-index: 2;
+     margin-top: -100px;
+     margin-left: 50px;
+     margin-right: 50px;
+     background: #ffffff;
+     width: 89%;
+ }
+
+ cite {
+     display: flex;
+     justify-content: flex-end;
+
+ }
