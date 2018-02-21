@@ -4,8 +4,12 @@
 .fa-bars, .navbar-brand{
     color: black;
 }
-.container .header .back, .left-2 .img2{
+.container .header .back, .left-2 .img2, .header-container{
     background-size: cover;
     background-position: center center;
+}
+
+.header-container {
+    height: 600px;
 }
  
